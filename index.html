@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>analyti.xyz - Data & AI</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="analyti.xyz — your trusted data & AI partner from A to Z."
+    />
+
+    <meta property="og:title" content="analyti.xyz - Data & AI" />
+    <meta property="og:description" content="Your trusted data & AI partner from A to Z." />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      @theme {
+        --color-analyti: #2A3B47;
+        --color-analytiAccent: #00C4B0;
+      }
+
+      @keyframes fade-in-up {
+        0% { opacity: 0; transform: translateY(10px); }
+        100% { opacity: 1; transform: translateY(0); }
+      }
+      .animate-enter {
+        animation: fade-in-up 0.8s ease-out forwards;
+      }
+    </style>
+  </head>
+
+  <body class="min-h-screen bg-analyti text-white font-sans antialiased flex flex-col items-center justify-between px-4 py-8">
+    <main class="flex flex-1 w-full max-w-3xl flex-col items-center justify-center text-center animate-enter">
+      <div class="mb-10 w-full px-4">
+        <img
+          src="./logo.svg"
+          alt="analyti.xyz logo"
+          class="mx-auto w-full max-w-[280px] md:max-w-[400px]" 
+        />
+      </div>
+      <h1 class="mb-6 w-full text-3xl md:text-4xl font-light leading-tight tracking-tight">
+        Exploring data & AI ideas
+        <span class="text-analytiAccent font-normal whitespace-nowrap">from A to Z</span>
+      </h1>
+      <div class="mt-2">
+        <p class="text-sm md:text-base text-white/80 font-light">
+          To connect or discuss, you can reach me at
+          <a
+            href="mailto:pranas@ziaukas.lt"
+            class="text-analytiAccent font-normal underline-offset-4 hover:underline"
+          >
+            pranas@ziaukas.lt
+          </a>
+        </p>
+      </div>
+    </main>
+    <footer class="mt-8 text-xs text-white/40 font-light">
+      © 2025 analyti.xyz
+    </footer>
+  </body>
+</html>
